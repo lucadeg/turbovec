@@ -1,11 +1,10 @@
+
 name: Release (PyPI)
 
 on:
-  push:
-    tags:
-      - "py-v*"
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 

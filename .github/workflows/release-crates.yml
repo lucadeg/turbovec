@@ -1,11 +1,10 @@
+
 name: Release (crates.io)
 
 on:
-  push:
-    tags:
-      - "v*"
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 
